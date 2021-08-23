@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import img from './assets/global-gallery-banner.JPG'
+import Card from './card.js';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App title="GLOBAL GALLERY"  />
+    <Card title="World top" img={img}></Card>
   </React.StrictMode>,
   document.getElementById('root')
 );
